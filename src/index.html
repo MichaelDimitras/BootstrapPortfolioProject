@@ -10,31 +10,35 @@
 <body>
 
   <nav class = "navbar navbar-default" role = "navigation">
-    
-    <div class='navbar-header'>
-      <a class='navbar-brand'>Megan McCircuit</a>
+    <div class='container-fluid'>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Michael Dimitras</a>
     </div>
 
-    <ul class='nav navbar-nav'>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-    </ul>
+    <div class='collapse navbar-collapse' id='dropdown-nav'>
+      <ul class='nav navbar-nav'>
+        <li><a href="#">Home</a></li>
+        <li><a href="https://michaeldimitras.github.io/">About</a></li>
+      </ul>
+    </div>
+    </div>
   </nav>
 
 
   <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators 
-  <ol class="carousel-indicators">
-    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
-    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
-  </ol>
--->
+
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <div class="container">
         <div class="carousel-caption">
           <h1>Excellent HTML</h1>
+          <p>Semantic, every time</p>
         </div>
       </div>
     </div>
@@ -42,6 +46,8 @@
       <div class="container">
         <div class="carousel-caption">
           <h1>Superior CSS</h1>
+          <p>Expertly styled</p>
+          <p>
         </div>
       </div>
     </div>
@@ -49,6 +55,7 @@
       <div class="container">
         <div class="carousel-caption">
           <h1>Wonderful Code</h1>
+          <p>Logical, very logical</p>
         </div>
       </div>
     </div>
@@ -65,7 +72,7 @@
 
 
 <div class='marketing'>
-  <div class='conatiner'>
+  <div class='container'>
     <div class='row'>
       <div class='col-md-4'>
         <span class='glyphicon glyphicon-signal'></span>
@@ -87,37 +94,11 @@
 
 <footer>
   <div class='container'>
+    <h3>Contact me</h3>
+    <a href='https://michaeldimitras.github.io/'>https://michaeldimitras.github.io/</a>
   </div>
 
 </footer>
-  <!--
-    Previous project placeholder begins
-  -->
-  <div class="tagline">
-    <h3>Who I am</h3>
-    <p>Hi, my name is Morgan and I love to write code that is efficient.</p>
-  </div>
-
-
-  <div class="skills">
-    <h3>What I do</h3>
-    <p>Here are some of the languages I use on a day-to-day.</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-  </div>
-
-  <div class="contact">x
-    <h3>Get in touch</h3>
-    <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
-  </div>
-  <!--
-    Previous project placeholder ends
-    (unused pieces will be deleted at the last task)
-  -->
-
 
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
